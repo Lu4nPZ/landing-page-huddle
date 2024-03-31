@@ -1,0 +1,76 @@
+@media(max-width: 1160px){
+    body{
+        background: url(../images/bg-mobile.svg) top no-repeat var(--primary-dark);
+        background-size: contain;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .mockup,
+    .infos{
+        width: 100%;
+    }
+
+    .mockup{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .mockup img{
+        width: 500px;
+    }
+
+    .infos{
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .social{
+        position: initial;
+    }
+
+    .infos p{
+        text-align: center;
+    }
+}
+
+@media(max-width: 535px){
+    .infos h1{
+        text-align: center;
+    }
+
+    .infos p{
+        text-align: center;
+    }
+
+    .btn-register{
+        width: 60%;
+        transform: initial;
+    }
+
+    .social{
+        transform: translateY(50%);
+    }
+}
+
+@media(max-width: 455px){
+    .cabecalho .logo{
+        width: 160px;
+    }
+
+    .mockup img{
+        width: 270px;
+    }
+
+    .infos h1{
+        font-size: 27px;
+        line-height: 48px;
+    }
+
+    .infos p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
